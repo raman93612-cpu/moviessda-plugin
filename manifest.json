@@ -1,15 +1,16 @@
 {
-  "id": "com.maman.moviesda.repository",
-  "name": "Moviesda Tamil Repository",
+  "id": "com.maman.moviesda.provider",
+  "name": "Moviesda Tamil HD",
   "version": "1.0.0",
-  "description": "Moviesda Scraper Provider for Nuvio",
+  "description": "Moviesda Tamil Movies Stream Provider",
   "author": "Maman",
+  "main": "provider.js",
+  "types": ["movie"],
   "providers": [
     {
       "id": "com.maman.moviesda.provider",
       "name": "Moviesda Tamil HD",
       "version": "1.0.0",
-      "description": "Scrapes streams directly from Moviesda",
       "main": "provider.js",
       "types": ["movie"]
     }
