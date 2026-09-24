@@ -1,0 +1,10 @@
+{
+  "id": "com.maman.moviesda.provider",
+  "name": "Moviesda Tamil HD",
+  "version": "1.0.0",
+  "description": "Moviesda Tamil Movies Direct Stream Provider for Nuvio",
+  "author": "Maman",
+  "icon": "https://raw.githubusercontent.com/feathericons/feather/master/icons/video.svg",
+  "main": "provider.js",
+  "types": ["movie"]
+}
